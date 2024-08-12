@@ -1,0 +1,125 @@
+{
+  "Category": {
+    "PaintEntries": {
+      "Brand": [
+        {
+          "Brandname": "AsianPaint",
+          "PrimaryColours": [
+            {
+              "PrimaryColorname": "Red",
+              "PrimaryColorHex": "#FF0000",
+              "AvialableShades": [
+                {
+                  "ColorHex": "#FF3131",
+                  "Colorname": "NeonRed",
+                  "NameCode": "ABC123",
+                  "QualityVariants": [
+                    {
+                      "VariantName": "q1",
+                      "CoatingDetails": [
+                        {
+                          "CoatingType": "Single",
+                          "CoatingCost": 200
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "ColorHex": "#FF2400",
+                  "ColorName": "Scarlet",
+                  "NameCode": "abc123",
+                  "QualityVariants": [
+                    {
+                      "VariantName": "q1",
+                      "CoatingDetails": [
+                        {
+                          "CoatingType": "Single",
+                          "CoatingCost": 200
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "PrimaryColorname": "orange",
+              "PrimaryColorHex": "#ffa500ff",
+              "AvialableShades": [
+                {
+                  "ColorHex": "#FF8C00",
+                  "ColorName": "DarkOrange",
+                  "NameCode": "123ABC",
+                  "QualityVariants": [
+                    {
+                      "VariantName": "q1",
+                      "CoatingDetails": [
+                        {
+                          "CoatingType": "Single",
+                          "CoatingCost": 200
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "ColorHex": "#F5761A",
+                  "ColorName": "Pumpkin",
+                  "NameCode": "123fgh",
+                  "QualityVariants": [
+                    {
+                      "VariantName": "q1",
+                      "CoatingDetails": [
+                        {
+                          "CoatingType": "Single",
+                          "CoatingCost": 200
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "Wallpaper": {
+      "WallpaperColors": [
+        {
+          "ColorName": "blue",
+          "ColorCode": "#0000ffff",
+          "Design": [
+            {
+              "DesignName": "Floral",
+              "SurfaceType": [
+                {
+                  "Surface": "Velvet",
+                  "Patterns": [
+                    {
+                      "PatternName": "Pattern1",
+                      "PatternSrc": "1.jpg"
+                    },
+                    {
+                      "PatternName": "Pattern2",
+                      "PatternSrc": "2.jpg"
+                    },
+                    {
+                      "PatternName": "Pattern3",
+                      "PatternSrc": "3.jpg"
+                    },
+                    {
+                      "PatternName": "Pattern4",
+                      "PatternSrc": "4.jpg"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
