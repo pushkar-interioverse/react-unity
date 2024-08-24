@@ -23,7 +23,7 @@ const App = () => {
   //   window.open(unity2Url, "_blank");
   // };
 
-  const openUnity3App = () => {
+  const openUnity2App = () => {
     const jsonData = {
       name: "Pushkar",
       accessToken: "qwdwkjfgikvjeflinlkdcwoicnw89dkjcsjdc-djvcldyvidcjd",
@@ -34,16 +34,22 @@ const App = () => {
     const encodedData = btoa(JSON.stringify(jsonData));
   
     // Construct the Unity WebGL URL with encoded JSON data
-    const unityUrl = `${window.location.origin}/unity3/index.html?jsonData=${encodedData}`;
+    const unityUrl = `${window.location.origin}/unity2/index.html?jsonData=${encodedData}`;
     window.open(unityUrl, "_blank");
   };
-  
+
+  const openUnity3App = () => {
+    // Construct the Unity WebGL URL for the new project
+    const unity2Url = `${window.location.origin}/unity3/index.html`;
+    window.open(unity2Url, "_blank");
+  };
 
   return (
     <div>
       <h1>Unity WebGL in React</h1>
       <button onClick={openUnityApp}>Open Unity App</button>
       <button onClick={openUnity3App}>Open Unity3 App</button>
+      <button onClick={openUnity2App}>Open Unity2 App</button>
     </div>
   );
 };
